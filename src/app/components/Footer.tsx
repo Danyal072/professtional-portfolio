@@ -4,8 +4,8 @@ import { Input } from "@/components/ui/input"
 import Link from 'next/link'
 
 export default function Footer() {
-    var d = new Date();
-    var n = d.getFullYear();
+    let d = new Date();
+    let n = d.getFullYear();
   return (
     <>
         <div id="footer" className='w-full h-auto lg:h-screen text-white flex sm:flex flex-col justify-center items-center'>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/home-sections/Hero";
 import Ser_slider from "./components/home-sections/Ser_slider";
@@ -9,8 +8,7 @@ import Footer from "./components/Footer";
 import Post from "./components/home-sections/post";
 
 export default function Home() {
-  const dae = new Date()
-  var post = [
+  let post = [
     {
       id: 3,
       category: 'Tech News',
