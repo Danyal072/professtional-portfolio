@@ -34,7 +34,7 @@ export default function Home() {
   return (
       <>
       
-        <div id="main" className="w-full h-full">
+        <div id="main" className="w-full h-full overflow-x-hidden">
           <Header />
           <div id="hero">
             <Hero />

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Danyayl Ahmed - Portfolio",
+  title: "Danyal Ahmed - Portfolio",
   description: "My Name is Danyal Ahmed. I am a Web Developer (NextJS), WordPress / Shopify Developer",
 };
 

@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import {
     NavigationMenu,
@@ -16,19 +17,69 @@ import {
   
 import Link from 'next/link'
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu"
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+// import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useEffect } from 'react';
 
 
 
 export default function Header() {
+    gsap.registerPlugin(useGSAP);
+    useEffect(() => {
+       if (window.innerWidth > 640) {
+            let menu_list = document.getElementById('menu-list');
+            if (!menu_list) return;
+            console.log(Array.from(menu_list.children));
+            let ml_l = Array.from(menu_list.children);
+            gsap.from(ml_l, {
+                x: -100,
+                duration: .8,
+                stagger: 0.15,
+                opacity: 0,
+                ease: "power3.inOut",
+            })
+            let logo = document.getElementById('logo-text');
+            if (!logo) return;
+            var h1Text = logo.textContent;
+            if (!h1Text) return;
+            var textArray = h1Text.split("");
+            var halftext = Math.floor(textArray.length / 2);
+            var clutter = ""
+            textArray.forEach((letter, idx) => {
+                if (idx < halftext) {
+                    clutter += `<span id="a">${letter}</span>`
+                }
+                else{
+                    clutter += `<span id="b">${letter}</span>`
+                }
+            })
+            logo.innerHTML = clutter;
+            gsap.from("#logo-text #a", {
+                y: 100,
+                duration: 1.2,
+                opacity: 0,
+                stagger: 0.15,
+            })
+            gsap.from("#logo-text #b", {
+                y: 100,
+                duration: 1.2,
+                opacity: 0,
+                stagger: -0.15,
+            })
+
+       } 
+        
+    });
   return (
     <>
         <div id="navbar" className='w-full h-[10vh] hidden sm:flex gap-[10rem] justify-center items-center p-4 px-8 text-white'>
             <div id="logo" className='w-[20vw]'>
-                <h1 className='text-2xl font-bold'>DANYAL</h1>
+                <h1 id="logo-text" className='text-2xl font-bold'>DANYAL</h1>
             </div>
             <div id="menu" className=' w-[60vw] flex justify-end items-center'>
                 <NavigationMenu className='w-[100%] h-full flex !justify-end items-center'>
-                    <NavigationMenuList className='w-[100%] flex justify-end items-center'>
+                    <NavigationMenuList id='menu-list' className='w-[100%] flex justify-end items-center'>
                         <NavigationMenuItem>
                             <Link href="/" legacyBehavior passHref>
                                 <NavigationMenuLink className={`${navigationMenuTriggerStyle()} no-underline hover:underline transition-all duration-500`}>Home</NavigationMenuLink>
