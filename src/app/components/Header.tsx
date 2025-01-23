@@ -28,10 +28,10 @@ export default function Header() {
     gsap.registerPlugin(useGSAP);
     useEffect(() => {
        if (window.innerWidth > 640) {
-            let menu_list = document.getElementById('menu-list');
+            const menu_list = document.getElementById('menu-list');
             if (!menu_list) return;
             console.log(Array.from(menu_list.children));
-            let ml_l = Array.from(menu_list.children);
+            const ml_l = Array.from(menu_list.children);
             gsap.from(ml_l, {
                 x: -100,
                 duration: .8,
@@ -39,12 +39,12 @@ export default function Header() {
                 opacity: 0,
                 ease: "power3.inOut",
             })
-            let logo = document.getElementById('logo-text');
+            var logo = document.getElementById('logo-text');
             if (!logo) return;
-            var h1Text = logo.textContent;
+            const h1Text = logo.textContent;
             if (!h1Text) return;
-            var textArray = h1Text.split("");
-            var halftext = Math.floor(textArray.length / 2);
+            const textArray = h1Text.split("");
+            const halftext = Math.floor(textArray.length / 2);
             var clutter = ""
             textArray.forEach((letter, idx) => {
                 if (idx < halftext) {
