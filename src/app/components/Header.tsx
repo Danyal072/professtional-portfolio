@@ -1,20 +1,14 @@
 import React from 'react'
 import {
     NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
   } from "@/components/ui/navigation-menu"
   import {
     Drawer,
     DrawerClose,
     DrawerContent,
-    DrawerDescription,
-    DrawerFooter,
     DrawerHeader,
     DrawerTitle,
     DrawerTrigger,

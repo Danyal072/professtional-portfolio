@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Hero from "./components/home-sections/Hero";
 import Ser_slider from "./components/home-sections/Ser_slider";
 import { Button } from "@/components/ui/button";
-import { Progress } from "@radix-ui/react-progress";
 import Progress_sec from "./components/home-sections/progress";
 import Por_slider from "./components/home-sections/Por_slider";
 import Footer from "./components/Footer";
