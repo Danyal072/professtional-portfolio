@@ -17,7 +17,7 @@ import {
 
 export default function Ser_slider() {
 
-  let items = [
+  const items = [
     {
       icon: 'bi bi-code-slash',
       title: 'Development',

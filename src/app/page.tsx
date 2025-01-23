@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Post from "./components/home-sections/post";
 
 export default function Home() {
-  let post = [
+  const post = [
     {
       id: 3,
       category: 'Tech News',

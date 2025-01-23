@@ -4,8 +4,7 @@ import { Input } from "@/components/ui/input"
 import Link from 'next/link'
 
 export default function Footer() {
-    let d = new Date();
-    let n = d.getFullYear();
+    const d = new Date().getFullYear();
   return (
     <>
         <div id="footer" className='w-full h-auto lg:h-screen text-white flex sm:flex flex-col justify-center items-center'>
@@ -33,7 +32,7 @@ export default function Footer() {
                     </div>
                 </div>
                     <div id="copyright" className='w-full h-auto sm:h-[5vh] flex justify-center items-center'>
-                        <h1 className='text-[0.65rem] sm:text-xs'>© {n} Copyright by Danyal Ahmed - Developed by Danylix</h1>
+                        <h1 className='text-[0.65rem] sm:text-xs'>© {d} Copyright by Danyal Ahmed - Developed by Danylix</h1>
                     </div>
         </div>
     </>

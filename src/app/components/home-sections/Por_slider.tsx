@@ -18,7 +18,7 @@ import {
 
 export default function Por_slider() {
 
-  let items = [
+  const items = [
     {
         title: 'Alphotix Store - Ecommerce Website',
         img:'https://img.freepik.com/free-vector/shopping-online-landing-page-concept_23-2148539965.jpg?t=st=1737556416~exp=1737560016~hmac=68cdbc6d60ab6c49cbfcd05ecfbebd58f0b4bd998967c0117e7f35946369ff2f&w=1480',
