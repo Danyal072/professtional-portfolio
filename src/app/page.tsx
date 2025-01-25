@@ -1,3 +1,4 @@
+'use client'
 import Header from "./components/Header";
 import Hero from "./components/home-sections/Hero";
 import Ser_slider from "./components/home-sections/Ser_slider";
@@ -6,32 +7,14 @@ import Progress_sec from "./components/home-sections/progress";
 import Por_slider from "./components/home-sections/Por_slider";
 import Footer from "./components/Footer";
 import Post from "./components/home-sections/post";
+import database from "@/database/post.json";
 
 export default function Home() {
-  const post = [
-    {
-      id: 3,
-      category: 'Tech News',
-      date: new Date(2025, 0, 4).toDateString().split(' ').join(',').slice(4),	
-      thumbinal: 'https://fps.cdnpk.net/images/ai/image-generator/gallery/pikaso-dog.webp',
-      title: "Don\'t wait until you officially started business to line these up.",
-  },
-  {
-      id: 2,
-      category: 'Tips & Tricks',
-      date: new Date(2025, 0, 2).toDateString().split(' ').join(',').slice(4),	
-      thumbinal: 'https://fps.cdnpk.net/images/ai/image-generator/gallery/pikaso-dog.webp',
-      title: "Don\'t wait until you officially started business to line these up.",
-  },
-      {
-          id: 1,
-          category: 'Business',
-          date: new Date(2025, 0, 1).toDateString().split(' ').join('- ').slice(4),	
-          thumbinal: 'https://fps.cdnpk.net/images/ai/image-generator/gallery/pikaso-dog.webp',
-          title: "Don\'t wait until you officially started business to line these up.",
-      },
-  ]
+  
+
+
   return (
+
       <>
       
         <div id="main" className="w-full h-full overflow-x-hidden">
@@ -83,7 +66,7 @@ export default function Home() {
                   </div>
               </div>
               <div id="bottom-sec" className='xl:w-[80%] lg:w-[100%] w-[80%] md:w-full h-[100%] flex flex-col justify-center items-center lg:gap-4 xl:gap-6'>
-                  {post.map((item) => (
+                  {database.post.map((item) => (
                       <Post key={item.id} item={item} />
                   ))}
                   

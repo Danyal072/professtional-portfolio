@@ -1,0 +1,28 @@
+{
+   "post" :[ {
+        "id": 3,
+        "category": "Tech News",
+        "date": "Thu - Jan 04, 2025",	
+        "thumbinal": "https://fps.cdnpk.net/images/ai/image-generator/gallery/pikaso-dog.webp",
+        "title": "Don't wait until you officially started business to line these up.",
+        "content": "/markdown/tips_area.md"
+    },
+    {
+        "id": 2,
+        "category": "Tech News",
+        "date": "new Date(2025, 0, 4).toDateString().split(' ').join(',').slice(4)",	
+        "thumbinal": "https://fps.cdnpk.net/images/ai/image-generator/gallery/pikaso-dog.webp",
+        "title": "Don't wait until you officially started business to line these up.",
+        "content": "/markdown/tips_area.md"
+    },
+    {
+        "id": 1,
+        "category": "Tech News",
+        "date": "new Date(2025, 0, 4).toDateString().split(' ').join(',').slice(4)",	
+        "thumbinal": "https://fps.cdnpk.net/images/ai/image-generator/gallery/pikaso-dog.webp",
+        "title": "Don't wait until you officially started business to line these up.",
+        "content": "/markdown/tips_area.md"
+    }
+
+] 
+}
