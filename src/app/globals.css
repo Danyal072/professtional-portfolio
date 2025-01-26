@@ -36,9 +36,9 @@ body {
     --radius: 0.5rem;
   }
   .dark {
-    --background: 224 71.4% 4.1%;
+    --background: 224 20.4% 10.1%;
     --foreground: 210 20% 98%;
-    --card: 224 71.4% 4.1%;
+    --card: 224 71.4% 70.1%;
     --card-foreground: 210 20% 98%;
     --popover: 224 71.4% 4.1%;
     --popover-foreground: 210 20% 98%;
@@ -60,6 +60,7 @@ body {
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
   }
 }
 

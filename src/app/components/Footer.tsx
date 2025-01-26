@@ -22,13 +22,14 @@ export default function Footer() {
             </div>
             <div id="third-section" className='w-[100%] h-[20vh] flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-0'>
                     <div id="contact" className='flex sm:flex-row flex-col justify-center items-start md:items-center lg:items-start w-10/12 md:w-11/12 lg:w-2/3 xl:w-1/2 gap-6 xl:gap-12'>
-                        <h1 className='text-sm md:text-xs lg:text-xl xl:text-2xl'><i className='bi bi-telephone text-base lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 px-3 lg:px-4 lg:py-3 xl:px-5'></i>&nbsp;&nbsp; +92 305 9537746</h1>
-                        <h1 className='text-sm md:text-xs lg:text-xl xl:text-2xl'><i className='bi bi-envelope text-base lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 px-3 lg:px-4 lg:py-3 xl:px-5'></i> &nbsp;&nbsp;danitech057@gmail.com</h1>
+                      <Link href={"https://wa.me/+923059537746"} target='_blank'>  <h1 className='text-sm md:text-xs lg:text-xl xl:text-2xl'><i className='bi bi-telephone text-base lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 px-3 lg:px-4 lg:py-3 xl:px-5'></i>&nbsp;&nbsp; +92 305 9537746</h1></Link>
+                       <Link href={"mailto:danitech057@gmail.com"} target='_blank'> <h1 className='text-sm md:text-xs lg:text-xl xl:text-2xl'><i className='bi bi-envelope text-base lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 px-3 lg:px-4 lg:py-3 xl:px-5'></i> &nbsp;&nbsp;danitech057@gmail.com</h1></Link>
                     </div>
                     <div id="icons" className='w-full md:w-1/2 lg:w-1/3 flex justify-center items-center gap-4'>
-                        <Link href="https://instagram.com/danyal.ahmmd" ><i className='bi bi-instagram text-base  lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 lg:py-3 lg:px-4 px-3 xl:px-5'></i></Link>
-                        <Link href="https://www.linkedin.com/in/danyal-ahmed-web-developer/" ><i className='bi bi-linkedin text-base  lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 lg:py-3 lg:px-4 px-3 xl:px-5'></i></Link>
-                        <Link href="https://threads.com/danyal.ahmmd" ><i className='bi bi-threads text-base  lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 lg:py-3 lg:px-4 px-3 xl:px-5'></i></Link>
+                        <Link href="https://instagram.com/danyal.ahmmd" target='_blank' ><Button variant={'outline'} className='text-base  lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-8 lg:py-3 lg:px-4 px-3 xl:px-5'><i className='bi bi-instagram'></i></Button></Link>
+                        <Link href="https://www.linkedin.com/in/danyal-ahmed-web-developer/" target='_blank' ><Button variant={'outline'} className='text-base  lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-8 lg:py-3 lg:px-4 px-3 xl:px-5'><i className='bi bi-linkedin'></i></Button></Link>
+                        <Link href="https://threads.com/danyal.ahmmd" target='_blank'><Button variant={'outline'} className='text-base  lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-8 lg:py-3 lg:px-4 px-3 xl:px-5'><i className='bi bi-threads'></i></Button></Link>
+                        {/* <Link href="https://threads.com/danyal.ahmmd" ><i className='bi bi-threads text-base  lg:text-lg xl:text-2xl border rounded-full py-2 xl:py-4 lg:py-3 lg:px-4 px-3 xl:px-5'></i></Link> */}
                     </div>
                 </div>
                     <div id="copyright" className='w-full h-auto sm:h-[5vh] flex justify-center items-center'>

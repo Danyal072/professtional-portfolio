@@ -15,7 +15,7 @@ export default function Hero() {
                 </div>
             </div>
             <div id="right" className='w-full sm:w-1/2 h-[40vh] sm:h-[80vh] flex justify-center items-center relative'>
-            <Image src="/me.png" className='w-[80vw] lg:w-[30vw] grayscale transition-all duration-1000' width={400} height={0} alt="Picture of the author" />
+            <Image src="/me.png" className='w-[70vw] lg:w-[30vw] grayscale transition-all duration-1000' width={400} height={0} alt="Picture of the author" />
             </div>
         </div>
     </>

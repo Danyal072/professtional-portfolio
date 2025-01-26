@@ -55,14 +55,14 @@ export default function Por_slider() {
            <CarouselContent>
             {items.map((item, index) => (
               <CarouselItem key={index} className='basis-[100%] h-full md:h-full lg:h-[calc(100%+5rem)] xl:h-full md:basis-1/2 flex justify-center items-center hover:cursor-grab active:cursor-grabbing'>
-                <Card className='lg:h-full h-auto flex flex-col gap-0 sm:gap-4 w-[90vw] sm:w-[100vw] bg-[#09122d] rounded-none border-none'>
-                  <CardHeader id='card-header-ch' className={`w-full h-full xl:h-[60vh] bg-blend-screen !bg-accent`}>
+                <Card className='lg:h-full h-auto flex flex-col gap-0 sm:gap-4 w-[90vw] sm:w-[100vw] bg-[#fff]/80 !text-secondary rounded-none border-none'>
+                  <CardHeader id='card-header-ch' className={`w-full h-full xl:h-[60vh] !bg-[#D0D1D2]`}>
                     <Image src={item.img} alt={item.title} className='!w-[100%]' width={1920} height={0} />
                   </CardHeader>
                   <CardContent className='w-full lg:h-[15vh] flex flex-col gap-2 lg:gap-0 p-4 pb-4'>
                     <CardTitle className='w-full'><h1 className='text-sm md:text-base lg:text-lg xl:text-3xl'>{item.title}</h1></CardTitle>
                     <CardDescription>
-                      <ul className='text-xs md:text-sm relative top-4 flex gap-2 md:gap-4'>
+                      <ul className='text-xs md:text-sm relative top-4 text-secondary/90 flex gap-2 md:gap-4'>
                         <li>{item.category.join(' / ')}</li>
                       </ul>
                     </CardDescription>

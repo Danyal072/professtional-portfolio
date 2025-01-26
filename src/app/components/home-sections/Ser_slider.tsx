@@ -51,14 +51,14 @@ export default function Ser_slider() {
            <CarouselContent>
             {items.map((item, index) => (
               <CarouselItem key={index} className='basis-[100%] md:basis-1/2 lg:basis-1/3 flex justify-center items-center'>
-                <Card className='h-full flex flex-col gap-4 p-2 lg:p-8 w-[100vw] lg:w-[30vw] xl:w-[20vw] bg-[#09122d] rounded-none border-none'>
+                <Card className='h-full flex flex-col gap-4 p-2 lg:p-8 w-[100vw] lg:w-[30vw] xl:w-[20vw] bg-[#fff]/80 text-[#0C1C46] rounded-none border-none'>
                   <CardHeader>
                     <i className={`${item.icon} text-5xl md:text-6xl lg:text-8xl`}></i>
                   </CardHeader>
                   <CardContent>
                     <CardTitle className='text-xl md:text-2xl'>{item.title}</CardTitle>
                     <CardDescription>
-                      <ul className='text-xs md:text-sm relative top-4  flex flex-col gap-2 md:gap-4'>
+                      <ul className='text-xs md:text-sm relative top-4 text-[#0C1C46]/80 flex flex-col gap-2 md:gap-4'>
                         {item.list.map((item, index) => (
                           <li key={index}><i className='bi bi-chevron-double-right text-xs lg:text-sm'></i>&nbsp;&nbsp;{item}</li>
                         ))}

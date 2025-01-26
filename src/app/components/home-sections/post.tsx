@@ -29,15 +29,15 @@ export default function Post({item}: PostProps) {
     
 
         
-            <Card className='flex flex-col md:flex-row justify-center items-center gap-2 lg:gap-4 xl:gap-10 rounded-none bg-[#070e24] border-none'>
-                <CardHeader>
-                    <Image src={item.thumbinal} alt="post-thumbinal" className='w-[50vw] md:w-[20vw] lg:w-[10vw]' width={400} height={300} />
+            <Card className='flex flex-col md:flex-row justify-center items-center gap-2 lg:gap-4 xl:gap-10 rounded-none bg-primary/80 !text-secondary border-none h-[25vh] relative'>
+                <CardHeader className='relative w-[50vw] md:w-[20vw] lg:w-[20vw]'>
+                    <Image src={item.thumbinal} alt="post-thumbinal" className='object-contain relative' width={400} height={300} />
                 </CardHeader>
                 <CardContent>
                     <CardTitle className='flex flex-col gap-4 w-auto'>
                         <div id="top-date-area" className='text-xs sm:text-base font-normal'>
                             
-                            <h1>{item.category} &nbsp;| &nbsp; <span id='span_html' className='text-primary/50'>{item.date}</span></h1>
+                            <h1>{item.category} &nbsp;| &nbsp; <span id='span_html' className='text-secondary/80'>{item.date}</span></h1>
                         </div>
                         <h1 className='text-lg md:text-lg lg:text-xl xl:text-3xl'>{item.title}</h1>
                     </CardTitle>

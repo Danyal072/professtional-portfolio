@@ -1,27 +1,12 @@
 {
-   "blog_post" :[ {
-        "id": 3,
-        "category": "Tech News",
-        "date": "Thu - Jan 04, 2025",	
-        "thumbinal": "/file.png",
-        "title": "Don't wait until you officially started business to line these up.",
-        "content": "markdown/tips_area.md"
-    },
-    {
-        "id": 2,
-        "category": "Tech News",
-        "date": "new Date(2025, 0, 4).toDateString().split(' ').join(',').slice(4)",	
-        "thumbinal": "/file.png",
-        "title": "Don't wait until you officially started business to line these up.",
-        "content": "tips_area.md"
-    },
+   "blog_post" :[ 
     {
         "id": 1,
-        "category": "Tech News",
-        "date": "new Date(2025, 0, 4).toDateString().split(' ').join(',').slice(4)",	
-        "thumbinal": "/file.png",
-        "title": "Don't wait until you officially started business to line these up.",
-        "content": "markdown/tips_area.md"
+        "category": "New Update",
+        "date": "Sun - 26/01/2025",	
+        "thumbinal": "/logo.png",
+        "title": "Important Update: Their's I launches my new website",
+        "content": "markdown/launch_website.md"
     }
 
 ] 
