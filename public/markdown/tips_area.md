@@ -18,7 +18,7 @@ Edge computing is gaining traction as it allows data processing closer to the so
 
 ## 7. AR and VR Innovations
 Augmented Reality (AR) and Virtual Reality (VR) technologies are advancing, with new applications in gaming, education, and remote work. These technologies are creating immersive experiences and new ways to interact with digital content.
-![Alt text](file.png)
+
 ## 8. Renewable Energy Tech
 Technological advancements in renewable energy are making it more efficient and cost-effective. Innovations in solar, wind, and battery storage are driving the transition to a more sustainable energy future.
 

@@ -7,7 +7,7 @@ export default function SideBar() {
   return (
     <>
     
-        <div id="area_place" className='relative w-auto top-10 p-2 py-8 h-[100vh] bg-[#030712] flex flex-col justify-center items-center text-white gap-10'>
+        <div id="area_place" className='relative w-auto top-10 p-2 py-8 h-[100vh]  flex flex-col justify-center items-center text-white gap-10'>
          
         <h1 id='follow_me' className="text-2xl md:text-3xl lg:text-xl xl:text-3xl font-bold uppercase text-center">Follow Me <br /> Here</h1>
             <div id="social_icons" className='flex flex-col justify-center items-center h-full w-[full] gap-16'>

@@ -1,27 +1,17 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+import { NextConfig } from 'next';
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
   images: {
-    domains: ["img.freepik.com", "fps.cdnpk.net"],
+    domains: ['example.com'],
   },
-  
-};
-module.exports = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'assets.example.com',
-        port: '',
-        pathname: '/account123/**',
-        search: '',
-      },
-    ],
-  },
+  reactStrictMode: false,
   experimental: {
-    missingSuspenseWithCSRBailout: false,
+    appDir: false,
   },
-}
+  pageExtensions: ["js", "jsx", "ts", "tsx"], // Enforce file extensions
+};
+
 
 export default nextConfig;

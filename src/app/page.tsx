@@ -66,9 +66,11 @@ export default function Home() {
                   </div>
               </div>
               <div id="bottom-sec" className='xl:w-[80%] lg:w-[100%] w-[80%] md:w-full h-[100%] flex flex-col justify-center items-center lg:gap-4 xl:gap-6'>
-                  {database.post.map((item) => (
+                 
+                    {database.blog_post.slice(0, 3).map((item) => (
                       <Post key={item.id} item={item} />
-                  ))}
+                    ))}
+
                   
               </div>
           </div>
