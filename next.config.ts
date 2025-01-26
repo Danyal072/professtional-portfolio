@@ -4,7 +4,7 @@ import { NextConfig } from 'next';
  */
 const nextConfig = {
   images: {
-    domains: ['example.com'],
+    domains: ['img.freepik.com'],
   },
   reactStrictMode: false,
   experimental: {
