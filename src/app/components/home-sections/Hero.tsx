@@ -17,9 +17,9 @@ export default function Hero() {
                e.preventDefault();
             }else if(e.ctrlKey && e.key === 'U') {
                e.preventDefault();
-            }else if(e.key === 'F12') {
-               e.preventDefault();
-            }
+            }// }else if(e.key === 'F12') {
+            //    e.preventDefault();
+            // }
         }
         
     })

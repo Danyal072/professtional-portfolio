@@ -19,8 +19,11 @@ export default function page() {
                     <div id="side-bar" className='w-1/4 h-full hidden lg:block'>
                         <SideBar />
                     </div>
-                    <div id="f_section" className='w-[75%] h-full'>
-                        <Form_Section />
+                    <div id="f_section" className='relative top-[8rem] w-[75%] h-full flex justify-center items-center'>
+                        
+                        <div id="inner_section" className='w-1/2 h-full'>
+                            <Form_Section />
+                        </div>
                     </div>
                 </div>
             </div>

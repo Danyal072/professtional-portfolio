@@ -29,7 +29,7 @@ export default function Post({item}: PostProps) {
     
 
         
-            <Card className='flex flex-col md:flex-row justify-center items-center gap-2 lg:gap-4 xl:gap-10 rounded-none bg-primary/80 !text-secondary border-none h-[25vh] relative'>
+            <Card className='flex flex-col md:flex-row justify-center items-center gap-2 lg:gap-4 xl:gap-10 rounded-none bg-primary/80 !text-secondary border-none h-auto lg:h-[25vh] relative'>
                 <CardHeader className='relative w-[50vw] md:w-[20vw] lg:w-[20vw]'>
                     <Image src={item.thumbinal} alt="post-thumbinal" className='object-contain relative' width={400} height={300} />
                 </CardHeader>
