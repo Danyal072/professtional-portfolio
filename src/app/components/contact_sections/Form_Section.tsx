@@ -17,11 +17,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { z } from "zod"
 import { useForm } from 'react-hook-form'
 
-const schema = z.object({
-  name: z.string().nonempty(),
-  mail: z.string().email(),
-  msg: z.string().nonempty(),
-})
+
 export default function Form_Section() {
   const form = useForm()
   return (
