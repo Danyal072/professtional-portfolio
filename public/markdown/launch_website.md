@@ -1,6 +1,6 @@
-# Danyal Ahmed Launches New Website
-<div className="w-full h-auto flex justify-end items-center relative">
-<img src="/me1.png" alt="technology used" style="width: 25%;" className="grayscale" />
+## Danyal Ahmed Launches New Website
+<div className="w-full h-auto flex justify-start items-center relative pointer-events-auto ">
+<img src="/me1.png" alt="technology used" className="grayscale w-1/2 h-[35vh] object-cover object-top pointer-events-none select-none" />
 </div>
 I, Danyal Ahmed, am excited to announce the launch of my new website developed with NextJS and Tailwind CSS. The website currently features two pages: the Home page and the Blog Detail page, where you are reading my blog. I plan to add more functions and pages, such as About and Contact, over time.
 
@@ -10,7 +10,7 @@ Stay tuned for more updates and new features!
 
 ## Technologies Used
 <div className="w-full h-auto flex justify-center items-center rounded">
-<img src="/posts/launch_website/img.jpg" alt="technology used" className="w-[20vw]" />
+<img src="/posts/launch_website/img.jpg" alt="technology used" className="w-[100vw] h-[30vh] object-cover object-[10%_25%] rounded-lg" />
 </div>
 The website is built using the following technologies:
 
@@ -18,8 +18,8 @@ The website is built using the following technologies:
 - **Tailwind CSS**: A utility-first CSS framework that allows for rapid UI development with a highly customizable design system.
 
 ## Future Plans
-<div className="w-full h-auto flex justify-center items-center rounded">
-<img src="posts/launch_website/future-plan.jpg" alt="technology used" className="w-[20vw] rounded-lg" />
+<div className="w-full h-[auto] flex justify-center items-center rounded">
+<img src="posts/launch_website/future_plan.jpg" alt="technology used" className="w-[100vw] h-[30vh] object-cover rounded-lg" />
 </div>
 I have several exciting plans for the website:
 
@@ -30,7 +30,7 @@ I have several exciting plans for the website:
 
 ## Lessons Learned
 <div className="w-full h-auto flex justify-center items-center rounded">
-<img src="posts/launch_website/what_i.jpg" alt="technology used" className="w-[auto] rounded-lg select-none" contextMenu="false" />
+<img src="posts/launch_website/what_i.jpg" alt="technology used" className="w-[auto] rounded-lg select-none" />
 </div>
 The development process taught me several valuable lessons:
 
@@ -52,7 +52,7 @@ Feel free to connect with me on social media or through my website:
 
 - [LinkedIn](https://www.linkedin.com/in/danyalahmed)
 - [Twitter](https://twitter.com/danyalahmed)
-- [GitHub](https://github.com/danyalahmed)
+- [GitHub](https://github.com/danyal072)
 
 Thank you once again for visiting my website. I look forward to sharing more updates and features with you soon!
 

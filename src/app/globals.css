@@ -76,3 +76,9 @@ body {
 #card-header-ch{
   background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
 }
+#img_div_area{
+  object-fit: cover !important;
+  width: 100vw;
+  height: 30vh;
+
+}
