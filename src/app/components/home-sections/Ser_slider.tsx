@@ -42,7 +42,7 @@ export default function Ser_slider() {
     
   return (
     <>
-      <div id="ser_slid" className='w-full h-[80vh] flex justify-center items-center'>
+      <div id="ser_slid" className='w-full h-[80vh] md:h-full lg:h-[80vh] flex justify-center items-center'>
       <Carousel opts={{
         align: "start",
         loop: true, 

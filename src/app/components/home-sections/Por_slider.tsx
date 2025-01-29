@@ -54,7 +54,7 @@ export default function Por_slider() {
       className="sm:w-full relative">
            <CarouselContent>
             {items.map((item, index) => (
-              <CarouselItem key={index} className='basis-[100%] h-full md:h-full lg:h-[calc(100%+5rem)] xl:h-full md:basis-1/2 flex justify-center items-center hover:cursor-grab active:cursor-grabbing'>
+              <CarouselItem key={index} className='basis-[100%] h-full md:h-2/3 lg:h-[calc(100%+5rem)] xl:h-full md:basis-1/2 flex justify-center items-center hover:cursor-grab active:cursor-grabbing'>
                 <Card className='lg:h-full h-auto flex flex-col gap-0 sm:gap-4 w-[90vw] sm:w-[100vw] bg-[#fff]/80 !text-secondary rounded-none border-none'>
                   <CardHeader id='card-header-ch' className={`w-full h-full xl:h-[60vh] !bg-[#D0D1D2]`}>
                     <Image src={item.img} alt={item.title} className='!w-[100%]' width={1920} height={0} />
